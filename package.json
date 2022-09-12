@@ -20,7 +20,8 @@
   },
   "dependencies": {
     "esm": "^3.2.25",
-    "got": "^11.8.2"
+    "got": "^11.8.2",
+    "node-fetch": "^3.2.10"
   },
   "repository": {
     "type": "git",
