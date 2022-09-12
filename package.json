@@ -1,0 +1,33 @@
+{
+  "name": "florida_man",
+  "version": "4.0.2",
+  "description": "npm package to find out what the florida man did today",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js",
+    "test": "node -r esm index.js"
+  },
+  "keywords": [
+    "florida man",
+    "api",
+    "news",
+    "what did florida man do today"
+  ],
+  "author": "ruriko123",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "got": "^11.8.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruriko123/florida_man.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ruriko123/florida_man/issues"
+  },
+  "homepage": "https://github.com/ruriko123/florida_man#readme"
+}
