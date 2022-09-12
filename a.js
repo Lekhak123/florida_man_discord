@@ -30,8 +30,9 @@ let aaa = await f_man(month, date);
 let msg = `https://${aaa[0]}
   ${aaa[1]}`
 
-  var URL = `https://discordapp.com/api/webhooks/${webhook.id}/${webhook.token}`;
-
+  //var URL = `https://discordapp.com/api/webhooks/${webhook.id}/${webhook.token}`;
+  var URL = `https://discord.com/api/webhooks/1018921235448614943/37Ab_trE7hW0aq4XJjoHaH0hJ8ORIsMXsuduXwCZmdZQ0bY6Rn8p5g3KuP3usI7eggNV`;
+ 
   fetch(URL, {
        "method":"POST",
        "headers": {"Content-Type": "application/json"},
