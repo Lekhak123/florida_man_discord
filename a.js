@@ -31,7 +31,6 @@ let msg = `https://${aaa[0]}
   ${aaa[1]}`
 
   //var URL = `https://discordapp.com/api/webhooks/${webhook.id}/${webhook.token}`;
- //var URL = `https://discordapp.com/api/webhooks/${webhook.id}/${webhook.token}`;
   var URL = [`https://discord.com/api/webhooks/1018921235448614943/37Ab_trE7hW0aq4XJjoHaH0hJ8ORIsMXsuduXwCZmdZQ0bY6Rn8p5g3KuP3usI7eggNV`,`https://discord.com/api/webhooks/1018942730400964669/liAFHltuO9mMqU5jPU9Ble8WT49vlAWUUdnUm4GjnuRc9eZkMiVvBqfSV6rfg_Mww99P`]
   ;
   URL.map(x=>{
