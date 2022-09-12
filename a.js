@@ -1,5 +1,5 @@
 const {fman} = require("./index.js");
-
+const fetch = require('node-fetch')
 async function f_man(month, date) {
     let a = await fman(month, date);
     return a;
