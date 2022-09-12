@@ -4,8 +4,7 @@
   "description": "npm package to find out what the florida man did today",
   "main": "index.js",
   "scripts": {
-    "start": "node -r esm index.js",
-    "test": "node -r esm index.js"
+    "start": "node -r esm a.js"
   },
   "keywords": [
     "florida man",
